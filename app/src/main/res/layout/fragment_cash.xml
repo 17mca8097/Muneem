@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAD492"
+    tools:context=".FragContainer.CashFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <DatePicker
+            android:id="@+id/dateSelector"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:spinnersShown="true" />
+
+        <Button
+            android:id="@+id/btnShowList"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+
+            android:background="#FFFFFF"
+            android:text="Show"
+            android:textColor="#220000" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/CashRecordList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clipToPadding="true"
+            android:layout_marginTop="20dp"
+            android:scrollbars="vertical"
+            android:textAlignment="center"
+            android:textDirection="firstStrong"
+            android:verticalScrollbarPosition="right" />
+
+    </LinearLayout>
+</FrameLayout>

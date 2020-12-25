@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:id="@+id/linearLayoutHead"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:background="@drawable/rv_background"
+    android:padding="1dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardDateOfExpense"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/txtDateOfExpense"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/aclonica"
+            android:text=""
+            android:textColor="#220000"
+            android:inputType="date"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardItemName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/txtItemName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/aclonica"
+            android:text=""
+            android:textColor="#220000"
+            android:textAlignment="center"
+            android:inputType="textAutoComplete"
+            android:textSize="12sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardItemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_weight=".6">
+
+        <EditText
+            android:id="@+id/txtItemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/aclonica"
+            android:text=""
+            android:textColor="#220000"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardExpenseType"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0.7">
+
+        <EditText
+            android:id="@+id/txtExpenseType"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/aclonica"
+            android:text=""
+            android:textColor="#220000"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSaveChanges"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0.7">
+
+        <Button
+            android:id="@+id/btnSaveChanges"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#40c73e"
+            android:fontFamily="@font/aclonica"
+            android:text="Save Changes"
+            android:textColor="#220000"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

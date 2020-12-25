@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#3FCF9D"
+    tools:context=".Splash"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/first"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_accounting"></View>
+
+        <View
+            android:id="@+id/second"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/first"
+            android:background="@drawable/ic_money"></View>
+
+        <View
+            android:id="@+id/third"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="130dp"
+            android:layout_toRightOf="@id/second"
+            android:background="@drawable/ic_piechart"></View>
+
+        <View
+            android:id="@+id/fourth"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="190dp"
+            android:layout_toRightOf="@id/third"
+            android:background="@drawable/ic_rich"></View>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_muneem"></ImageView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="cursive"
+                android:text="Future Services"
+                android:textAlignment="center"
+                android:textColor="#096110"
+                android:textSize="24sp"></TextView>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <item
+        android:id="@+id/nav_CashRecord"
+        android:icon="@drawable/ic_cash_status"
+        android:title="Cash"
+        app:cnb_backgroundColor="#FFFFFF" />
+    <item
+        android:id="@+id/nav_AccountRecord"
+        android:icon="@drawable/ic_account_record"
+        android:title="Account"
+        app:cnb_backgroundColor="#FFFFFF" />
+
+</menu>
