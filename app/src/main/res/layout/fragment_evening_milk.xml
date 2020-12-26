@@ -3,10 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EAD492"
-    tools:context=".RecordFragmentContainer.AccountFragment">
+    tools:context=".MilkFragmentContainer.EveningMilk">
 
-    <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -32,7 +30,7 @@
             android:textColor="#220000" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/AccountRecordList"
+            android:id="@+id/EveningMilkList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -43,5 +41,12 @@
             android:textDirection="firstStrong"
             android:verticalScrollbarPosition="right" />
 
+        <TextView
+            android:id="@+id/txtTotalEvening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"></TextView>
+
     </LinearLayout>
+
 </FrameLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="@color/ScreenColor"
     android:layout_height="match_parent"
-    tools:context=".MonthlyList">
+    tools:context=".Activities.MonthlyList">
 
     <LinearLayout
         android:id="@+id/linearLayout5"
@@ -24,11 +24,11 @@
             <Button
                 android:id="@+id/btnShowList"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:background="@drawable/rv_background"
                 android:text="Show"
                 android:textColor="#220000"
-                android:textSize="10sp"
+                android:textSize="15sp"
                 app:fontFamily="@font/aclonica" />
     </LinearLayout>
     <LinearLayout

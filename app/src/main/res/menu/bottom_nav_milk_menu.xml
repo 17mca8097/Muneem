@@ -2,13 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/nav_DashBoard"
+        android:icon="@drawable/ic_menu"
+        android:title="Add MilkRecord"
+        app:cnb_backgroundColor="#FFFFFF" />
+    <item
         android:id="@+id/nav_Morning"
-        android:icon="@drawable/ic_cash_status"
+        android:icon="@drawable/ic_morning"
         android:title="Morning"
         app:cnb_backgroundColor="#FFFFFF" />
     <item
         android:id="@+id/nav_Evening"
-        android:icon="@drawable/ic_account_record"
+        android:icon="@drawable/ic_evening"
         android:title="Evening"
         app:cnb_backgroundColor="#FFFFFF" />
 </menu>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/frag_container"
-    tools:context=".FragContainer.RecordFragmented">
+    tools:context=".RecordFragmentContainer.RecordFragmented">
 
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
         android:id="@+id/bottom_nav_menu"

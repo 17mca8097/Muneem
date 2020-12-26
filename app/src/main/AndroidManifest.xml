@@ -18,19 +18,17 @@
         android:roundIcon="@drawable/ic_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MilkFragContainer.MilkFragment"></activity>
-        <activity android:name=".FragContainer.RecordFragmented" />
-        <activity android:name=".CalenderActivity" />
-        <activity android:name=".custom_money_edit" />
-        <activity android:name=".ResetApplication" />
-        <activity android:name=".AboutUs" />
-        <activity android:name=".ManageMilk" />
-        <activity android:name=".AddItems" />
-        <activity android:name=".Records" />
-        <activity android:name=".MonthlyList" />
-        <activity android:name=".BalanceSheet" />
+        <activity android:name=".MilkFragmentContainer.MilkFragment" />
+        <activity android:name=".RecordFragmentContainer.RecordFragmented" />
+        <activity android:name=".HelperClasses.Date_ExpenseType_Helper" />
+        <activity android:name=".Activities.custom_money_edit" />
+        <activity android:name=".Activities.ResetApplication" />
+        <activity android:name=".Activities.AboutUs" />
+        <activity android:name=".Activities.AddItems" />
+        <activity android:name=".Activities.MonthlyList" />
+        <activity android:name=".Activities.BalanceSheet" />
         <activity
-            android:name=".Splash"
+            android:name=".Activities.Splash"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,7 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".Activities.MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

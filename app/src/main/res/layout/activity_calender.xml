@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/ScreenColor"
-    tools:context=".CalenderActivity">
+    tools:context=".HelperClasses.Date_ExpenseType_Helper">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,6 +22,7 @@
                 android:background="@color/ScreenColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:layout_gravity="center|center_horizontal|center_vertical" />
         </androidx.cardview.widget.CardView>
 
@@ -65,7 +66,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1.5">
+            android:layout_weight="2.0">
 
             <ImageView
                 android:id="@+id/btnNext"
